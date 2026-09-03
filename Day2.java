@@ -34,7 +34,7 @@ public class Day2 {
         System.out.printf("alamt \t\t: %s\n", alamat);
         System.out.printf("umur \t\t: %s\n", umur);
         System.out.printf("jurusan \t: %s\n", jurusan);
-        System.out.printf(" nim \t\t: $s\n", nim);
+        System.out.printf(" nim \t\t: %s\n", nim);
     }
 
     
