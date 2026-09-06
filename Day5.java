@@ -19,4 +19,9 @@ public class day5 {
         System.out.println("Tinggi badan \t:" + tinggiBadan + "cm");
         System.out.println("Suhu tubuh \t:" + suhuTubuh + "°C");
         
-        // menambahkan cm dan °C untuk menuliskan satuannya 
+        // menambahkan cm dan °C untuk menentukan satuannya 
+        
+        
+    }
+    
+}
