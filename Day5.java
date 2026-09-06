@@ -1,7 +1,9 @@
 public class day5 {
     
     public static void main(String[] args) {
-        // double dan float, tipe data pecahan digunakan untuk menyimpan angka yang memiliki nilai di belakang koma.
+        /* double dan float, tipe data pecahan digunakan untuk menyimpan angka 
+         * yang memiliki nilai di belakang koma.
+         */
         
         
         // double, digunakan untuk menyimpan bilangan pecahan dengan ketelitian lebih tinggi
