@@ -44,7 +44,7 @@ public class day6 {
         // tipe data boolean
         System.out.println("==========data boolean==========");
         System.out.println("akun aktif \t\t:" + akunAktif);
-        System.out.println("hsdir  \t\t\t:" + hadir);
+        System.out.println("hadir  \t\t\t:" + hadir);
         System.out.println("================================");
         System.out.println("==========Day6 Selesai==========");
         
