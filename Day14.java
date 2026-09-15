@@ -1,3 +1,4 @@
+// operator aritmatika penjumlahan + dan pengurangan 
 public class day14 {
     
     public static void main(String[] args) {
