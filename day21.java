@@ -5,7 +5,7 @@ public class day21 {
         String a = "25"; 
 
         // String diubah menjadi int
-        int b = Integer.parseInt(teks); 
+        int b = Integer.parseInt(a); 
 
         System.out.println("nilai String = " + a);
         System.out.println("nilai Int = " + b);
