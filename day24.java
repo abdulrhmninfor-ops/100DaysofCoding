@@ -7,14 +7,14 @@ public class day24 {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Masukan Panjang : ");
-        int panjang = input.nextInt();
+        double panjang = input.nextDouble();
         
         System.out.print("Masukan lebar : ");
-        int lebar = input.nextInt();
+        double lebar = input.nextDouble();
         
         System.out.println("\n============ hasil ===========");
-        System.out.println("Luas Persegi Panjang \t: " +(panjang*lebar)+ "cm²");
-        
+        System.out.printf("Luas Persegi Panjang \t:%.2f" ,(panjang*lebar), "cm²");
+
         input.close();
         
     }
