@@ -1,4 +1,3 @@
-// menghitung luas lingkaran
 //  (L = π × r²).
 import java.util.Scanner;
 public class day25 {
