@@ -71,9 +71,11 @@ public class day26 {
         int b = input.nextInt();
         
         
-        int sementara = a;
-         a = b;
-         b = sementara;
+          
+        a = a+b;
+        b = a-b;
+        a = a-b;
+        
         
         System.out.println(a);
         System.out.println(b);
