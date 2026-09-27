@@ -46,12 +46,13 @@ public class day26 {
          * Buatlah program yang menghitung luas lingkaran berdasarkan
          * input jari-jari menggunakan nilai konstanta PI.
          * Rumus Luas Lingkaran: PI × jari × jari
+         * Nilai PI = 3.14
          */
 
 
 
 
-Nilai PI = 3.14
+
         
         int a = input.nextInt();
         double b = input.nextDouble();
