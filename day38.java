@@ -25,7 +25,7 @@ public class day38 {
         } else if ( pilihan == 4){
             System.out.println("Anda memilih Mochaccino");
         } else {
-            System.out.prinln("pilihan tidak falid");
+            System.out.println("pilihan tidak falid");
         }
         
         
