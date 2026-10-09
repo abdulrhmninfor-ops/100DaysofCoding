@@ -18,18 +18,14 @@ public class day38 {
 
         if (pilihan == 1) {
             System.out.println("Anda memilih Americano ");
-        }
-
-        if (pilihan == 2) {
+        } else if (pilihan == 2) {
             System.out.println("Anda memilih Cappucino");
-        }
-
-        if (pilihan == 3) {
+        } else if (pilihan == 3) {
             System.out.println("Anda memilih Espreso");
-        }
-
-        if (pilihan == 4){ 
+        } else if ( pilihan == 4){
             System.out.println("Anda memilih Mochaccino");
+        } else {
+            System.out.prinln("pilihan tidak falid");
         }
         
         
