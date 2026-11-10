@@ -1,0 +1,100 @@
+// soal 2
+import java.util.Scanner;
+
+public class day68{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int pilihan = input.nextInt();
+        if ( pilihan < 1 || pilihan > 3){
+            System.out.println("pilihan tidak valid");
+            return;
+        }
+        int N = input.nextInt();
+        String simbol = input.next();
+
+        if ( N < 1){
+            System.out.println("Ukuran tidak valid ");
+            return;
+        } 
+        if (pilihan == 1){
+            for ( int i = 1; i <= N; i++ ){
+                System.out.println(simbol);
+            }
+            
+        } else if (pilihan == 2){
+            for ( int j = 1; j <= N; j++){
+                System.out.print(simbol);
+                if (j <= N){
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        } else {
+            for ( int i = 1; i <= N; i++){
+                for ( int j = 1; j <= N; j++){
+                    System.out.print(simbol);
+                    if ( j < N ){
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+
+            }
+        }
+            
+
+
+
+
+
+
+
+    }
+    
+}
+
+// soal 3   
+import java.util.Scanner;
+
+public class dul3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+            int n  = input.nextInt();
+
+            for (int i = 1; i <= n; i++){
+                for (int j = 1; j <= i ; j++) {
+                    if ( i == n || j==1 || j==i ){
+                        System.out.print("*");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+            }
+
+
+
+
+
+
+
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
