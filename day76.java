@@ -2,7 +2,7 @@ public class day76 {
     public static void main(String[] args) {
 
        
-        String buah = "Mangga";
+        String buah = "   Mangga   ";
 
         // Menampilkan nama buah asli
         System.out.println("Buah asli: " + buah);
