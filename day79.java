@@ -13,7 +13,7 @@ public class day79 {
             
         }
         System.out.println("\n===== HASIL ARRAY =====");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             System.out.println("Angka ke-" + (i + 1) + " : " + angka[i]);
         }
         
